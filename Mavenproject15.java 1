@@ -1,0 +1,53 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Project/Maven2/JavaApp/src/main/java/${packagePath}/${mainClassName}.java to edit this template
+ */
+
+package com.mycompany.mavenproject15;
+
+import java.util.Scanner;
+
+/**
+ *
+ *Multiplicação utilizando soma @author Cíntia
+ */
+public class Mavenproject15 {
+
+    public static void main(String[] args) {
+        Scanner in = new Scanner (System.in);
+        double [ ] vet;
+        System.out.println("Digite o primeiro numero:" );
+        double n1;
+        n1 = in.nextDouble();
+        System.out.println("Digite o segundo numero:" );
+        double n2;
+        n2 = in.nextDouble();
+        int cont = 0;
+        int total = 0;
+        
+        for (int i = 0; i < vet.length; i ++){
+            (total = n2 + total);
+             cont++;
+             
+        }
+           if(n1<0){
+               cont++;
+               n1 = 0-n1;
+               
+           }
+           if(n2<0){
+               cont++;
+               n2 = 0 - n2;
+               
+           }
+           
+           System.out.println("O total é:" );
+           
+           }
+           
+           
+        }
+        
+    
+        
+
